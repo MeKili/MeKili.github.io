@@ -144,7 +144,7 @@
       .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
       .then(function (d) {
         if (typeof d.public_repos === "number") {
-          el.innerHTML = " — <b>" + d.public_repos + "</b> public repositories and counting";
+          el.innerHTML = " · <b>" + d.public_repos + "</b> public repositories and counting";
           el.hidden = false;
         }
       })

@@ -200,6 +200,8 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .project__cat, .project__flag { font-size: .72rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase;
   color: var(--muted); background: var(--bg-soft); border: 1px solid var(--border); padding: 4px 10px; border-radius: 999px; }
 .project__flag { color: #fff; background: var(--grad); border-color: transparent; }
+.project__priv { font-size: .72rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase;
+  color: var(--muted); background: transparent; border: 1px dashed var(--border-strong); padding: 4px 10px; border-radius: 999px; }
 .project__ext { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 9px; color: var(--muted);
   border: 1px solid var(--border); transition: all .18s ease; }
 .project__ext:hover { color: var(--brand); border-color: var(--brand); transform: translate(2px, -2px); }
